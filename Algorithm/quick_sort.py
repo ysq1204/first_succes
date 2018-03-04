@@ -12,10 +12,10 @@ def quick_sort(list):
         # 将第一个值做为基准
         pivot = list[0]
         for i in list:
-            # 将比急转小的值放到less数列
+            # 将比基准值小的值放到less数列
             if i < pivot:
                 less.append(i)
-            # 将比基准打的值放到more数列
+            # 将比基准大的值放到more数列
             elif i > pivot:
                 more.append(i)
             # 将和基准相同的值保存在基准数列
